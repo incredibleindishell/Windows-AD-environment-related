@@ -1,0 +1,5 @@
+
+Step 1. Upload SharpHound.ps1 file from your local machine to target server 
+Step 2. Run below mentioned command to run sharphound powershell script to generate Active directory mapping JSON files
+
+powershell.exe -exec bypass -Command "& {Import-Module .\SharpHound.ps1 ; Invoke-BloodHound -CollectionMethod All -CompressData -RemoveCSV}"
