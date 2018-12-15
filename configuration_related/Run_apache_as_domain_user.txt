@@ -1,0 +1,14 @@
+Register httpd.exe with service name (let's say "apache")
+c:\xampp\apache\bin>httpd.exe -k install -n "apache"
+
+confirm presence of "apache" in list of services
+xampp control panel -> services 
+
+Right click the service name and seclect "Properties"
+In new window, switch to "Log On" tab.
+Select "This Account" radio button and specify the AD user's username and password.
+
+Grant permission to the AD user on apache related binary and other files which we configured in above step. 
+
+Restart the Queen and enjoy the setup.
+./init 0
