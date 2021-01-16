@@ -7,6 +7,6 @@ Credit and actual project developed by p3nt4 bhai ji (https://twitter.com/xP3nt4
  
 Launching powerShell using regasm.exe:
  
-    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe  icalab.dll
+    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe /U icalab.dll
     
  ./thanks
